@@ -29,11 +29,12 @@ Telecom customer dataset containing features like:
 
 ### Results
 
-| Model &  Accuracy 
-  Logistic Regression - 0.80 
-  Random Forest - 0.79 
+| Model &  Accuracy :
 
-Logistic Regression performed slightly better.
+* Logistic Regression - 0.80 
+* Random Forest - 0.79 
+
+- Logistic Regression performed slightly better.
 
 ### Key Insights
 - Month-to-month contracts have higher churn rates
@@ -53,21 +54,34 @@ A Streamlit app is built where users can input customer details and predict chur
 ### Project Structure
 customer-churn-prediction
 │
-├── app
-│ └── streamlit_app.py
-│
-├── src
-│ ├── preprocess.py
-│ ├── train_model.py
-│ ├── churn_model.pkl
-│ └── model_columns.pkl
-│
-├── data
-│ └── churn.csv
-│
-├── requirements.txt
-└── README.md
 
+├── app
+
+│ └── streamlit_app.py
+
+│
+
+├── src
+
+│ ├── preprocess.py
+
+│ ├── train_model.py
+
+│ ├── churn_model.pkl
+
+│ └── model_columns.pkl
+
+│
+
+├── data
+
+│ └── churn.csv
+
+│
+
+├── requirements.txt
+
+└── README.md
 
 ### Future Improvements
 - Add advanced models like XGBoost
